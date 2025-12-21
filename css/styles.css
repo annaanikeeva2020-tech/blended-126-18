@@ -1,0 +1,152 @@
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fbfbfb;
+    font-size: 16px;
+    color: rgba(12, 12, 12, 0.7);
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+button {
+    border: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 1198px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.logo {
+    padding: 6px, 0;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-link {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    display: flex;
+    width: 36px;
+    height: 36px;
+}
+
+.page-header {
+    padding: 26px 0;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header .logo {
+    padding: 6px, 0;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav-link {
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #0c0c0c;
+}
+
+.catalog-titel {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 23px;
+}
+
+.catalog-item {
+    width: calc((100% - 46px) / 3);
+    padding: 24px 32px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 368px;
+    height: 414px;
+    background: #f3f3f3;
+}
+
+.catalog-item img {
+    margin: 0 auto;
+}
+
+.catalog-sud-titel {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.catalog-price {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+}

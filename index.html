@@ -4,37 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WatchCharm</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    
+    <link rel="stylesheet" href="./css/styles.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+
 </head>
 <body>
-<header> 
-        <a href="./index.html">Watchcharm</a>
+<header class="page-header"> 
+    <div class="container header-container">
+        <a class="logo" href="./index.html">watchcharm</a>
 
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#catalog">Catalog</a></li>
-                <li><a href="sale">Sale</a></li>
-                <li><a href="reviews">Reviews</a></li>
-                <li><a href="">Contact Us</a></li>
+
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Home</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" class="social-link" href="#about-us">About Us</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="#catalog">Catalog</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="sale">Sale</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="reviews">Reviews</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="">Contact Us</a></li>
                 </ul>
         </nav>
 
-            <ul>
-                <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">F</a>
+            <ul class="social-list">
+                <li class="social-item">
+                    <a class="social-link" href="#" target="_blank" rel="noopener noreferrer nofollow">F</a>
                 </li>
-                <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">I</a>
+                <li class="social-item">
+                    <a class="social-link" href="#" target="_blank" rel="noopener noreferrer nofollow">I</a>
                 </li>
-                <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">Y</a>
+                <li class="social-item">
+                    <a class="social-link" href="#" target="_blank" rel="noopener noreferrer nofollow">Y</a>
                 </li>
             </ul>
+        </div>
 </header>
 
  <main>
     <section>
+    <div class="container"> 
         <h1>Welcome to our collection of premium watches</h1>
         <p>Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to
         modern ones, we have a watch to suit every taste and occasion.</p>
@@ -46,6 +63,7 @@
         
         <a href="#bottom">Scroll down</a>
         <img src="./images/Rectangle 10.jpg" width="1150" height="500" />
+    </div>
 
     </section>
 
@@ -62,41 +80,43 @@
             
             <img src="./images/Rectangle 11.jpg" width="530" height="532" />
     </section>
-    <section>
-        <section id="catalog">
-            <h2>Catalog</h2>
-            <ul>
-                <li>
+
+    <section class="section" id="catalog">
+            <div class="container"> 
+            <h2 class="catalog-titel">Catalog</h2>
+            <ul class="catalog-list">
+                <li class="catalog-item">
                     <img src="./images/watch1.jpg" alt="Garmin Fenix 7X Pro Sapphire Solar" width="292" height="292" />
-                    <h3>Garmin Fenix 7X Pro Sapphire Solar</h3>
-                    <span>€500</span>
+                    <h3 class="catalog-sub-titel">Garmin Fenix 7X Pro Sapphire Solar</h3>
+                    <span class="catalog-price">€500</span>
                 </li>
-                <li>
+                <li class="catalog-item">
                     <img src="./images/watch2.jpg" alt="Garmin Marq Athlete" width="292" height="292" />
-                    <h3>Garmin Marq Athlete</h3>
-                    <span>€450</span>
+                    <h3 class="catalog-sub-titel">Garmin Marq Athlete</h3>
+                    <span class="catalog-price">€450</span>
                 </li>
-                <li>
+                <li class="catalog-item">
                     <img src="./images/watch3.jpg" alt="Garmin Descent MK1" width="292" height="292" />
-                    <h3>Garmin Descent MK1</h3>
-                    <span>€680</span>
+                    <h3 class="catalog-sub-titel">Garmin Descent MK1</h3>
+                    <span class="catalog-price">€680</span>
                 </li>
-                <li>
+                <li class="catalog-item">
                     <img src="./images/watch4.jpg" alt="Garmin D2 Delta PX" width="292" height="292" />
-                    <h3>Garmin D2 Delta PX</h3>
-                    <span>€380</span>
+                    <h3 class="catalog-sub-titel">Garmin D2 Delta PX</h3>
+                    <span class="catalog-price">€380</span>
                 </li>
-                <li>
+                <li class="catalog-item">
                     <img src="./images/watch5.jpg" alt="Garmin Fenix 6 Pro Solar" width="292" height="292" />
-                    <h3>Garmin Fenix 6 Pro Solar</h3>
-                    <span>€400</span>
+                    <h3 class="catalog-sub-titel">Garmin Fenix 6 Pro Solar</h3>
+                    <span class="catalog-price">€400</span>
                 </li>
-                <li>
+                <li class="catalog-item" >
                     <img src="./images/watch6.jpg" alt="Tube Watch S42 Date Steel With Black Case" width="292" height="292" />
-                    <h3>Tube Watch S42 Date Steel With Black Case</h3>
-                    <span>€395</span>
+                    <h3 class="catalog-sub-titel">Tube Watch S42 Date Steel With Black Case</h3>
+                    <span class="catalog-price">€395</span>
                 </li>
             </ul>
+        </div>
     </section>
         
     <section>     
