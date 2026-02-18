@@ -175,13 +175,48 @@
         </ul>
     </section>
     
-    <section>
-        <h2>Contact Us</h2>
-        <p>Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
-        <form>
-            <botton type="submit">Send</botton>
+    <section class="section-contacts section">
+    <div class="container">
+        <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-inner">    
+     <div class="contact-form-wrapper">
+        <p class="contact-form-text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
+        <form class="contact-form">
+            <label 
+            class="visually-hidden" 
+            for="name">Name</label>
+            
+            <input 
+            class="contact-input" 
+            type="text" 
+            name="name" 
+            placeholder="Name" required/>
+            
+            <input 
+            class="contact-input" 
+            type="email" name="email" 
+            placeholder="Email" required />
+            
+            <input 
+            class="contact-input" 
+            type="tel" 
+            name="phone" 
+            placeholder="+380" required />
+            
+            <textarea 
+            class="contact-comment" 
+            name="comment" 
+            aria-label="Comment"
+            placeholder="Comment"></textarea>
+            <botton class="contact-btn" type="submit">Send</botton>
         </form>
-        <img src="./images/contact.jpg" alt="watch" width="530" height="556" />
+     </div>
+     
+        <div class="contact-img-wrapper">
+            <img src="./images/contact.jpg" alt="watch" width="530" height="556" />
+        </div>
+    </div>
+    </div>
     </section>
 
 </main>
